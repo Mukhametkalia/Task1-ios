@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		8E298DF6202F348B00687C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298DF5202F348B00687C64 /* AppDelegate.swift */; };
-		8E298DF8202F348B00687C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298DF7202F348B00687C64 /* ViewController.swift */; };
-		8E298DFB202F348B00687C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E298DF9202F348B00687C64 /* Main.storyboard */; };
 		8E298DFD202F348B00687C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E298DFC202F348B00687C64 /* Assets.xcassets */; };
 		8E298E00202F348B00687C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E298DFE202F348B00687C64 /* LaunchScreen.storyboard */; };
+		8E298E0E202F680B00687C64 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E0D202F680B00687C64 /* Tools.swift */; };
+		8E298E12202F6EFB00687C64 /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E11202F6EFB00687C64 /* Pen.swift */; };
+		8E298E14202F71A800687C64 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E13202F71A800687C64 /* Point.swift */; };
+		8E298E18202F751B00687C64 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E17202F751B00687C64 /* Circle.swift */; };
+		8E298E1A202F752700687C64 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E19202F752700687C64 /* Rectangle.swift */; };
+		8E298E1C202F753300687C64 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E1B202F753300687C64 /* Triangle.swift */; };
+		8E298E1E202F759C00687C64 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298E1D202F759C00687C64 /* Line.swift */; };
+		8E589FE2203BE636000E9CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E589FE1203BE635000E9CD4 /* ViewController.swift */; };
+		8E589FE4203BE660000E9CD4 /* DrawingArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E589FE3203BE660000E9CD4 /* DrawingArea.swift */; };
+		8E589FE6203BE672000E9CD4 /* ToolsUsingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E589FE5203BE672000E9CD4 /* ToolsUsingModel.swift */; };
+		8E589FEC203BF2C3000E9CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E589FEA203BF2C3000E9CD4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E298DF2202F348B00687C64 /* Assigment-3(Drawing).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assigment-3(Drawing).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E298DF5202F348B00687C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E298DF7202F348B00687C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E298DFA202F348B00687C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E298DFC202F348B00687C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E298DFF202F348B00687C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E298E01202F348B00687C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E298E0D202F680B00687C64 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		8E298E11202F6EFB00687C64 /* Pen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
+		8E298E13202F71A800687C64 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		8E298E17202F751B00687C64 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		8E298E19202F752700687C64 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		8E298E1B202F753300687C64 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		8E298E1D202F759C00687C64 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		8E589FE1203BE635000E9CD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Assigment-3(Drawing)/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		8E589FE3203BE660000E9CD4 /* DrawingArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingArea.swift; path = "Assigment-3(Drawing)/DrawingArea.swift"; sourceTree = SOURCE_ROOT; };
+		8E589FE5203BE672000E9CD4 /* ToolsUsingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToolsUsingModel.swift; path = "Assigment-3(Drawing)/ToolsUsingModel.swift"; sourceTree = SOURCE_ROOT; };
+		8E589FEB203BF2C3000E9CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +73,46 @@
 			isa = PBXGroup;
 			children = (
 				8E298DF5202F348B00687C64 /* AppDelegate.swift */,
-				8E298DF7202F348B00687C64 /* ViewController.swift */,
-				8E298DF9202F348B00687C64 /* Main.storyboard */,
-				8E298DFC202F348B00687C64 /* Assets.xcassets */,
-				8E298DFE202F348B00687C64 /* LaunchScreen.storyboard */,
 				8E298E01202F348B00687C64 /* Info.plist */,
+				8E298DFC202F348B00687C64 /* Assets.xcassets */,
+				8EB96A322032D1FA008CA72B /* Controllers */,
+				8E298E0D202F680B00687C64 /* Tools.swift */,
+				8E298E13202F71A800687C64 /* Point.swift */,
+				8EB96A332032D238008CA72B /* Storyboard */,
+				8E298E1F202F813700687C64 /* ToolBar */,
 			);
 			path = "Assigment-3(Drawing)";
+			sourceTree = "<group>";
+		};
+		8E298E1F202F813700687C64 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				8E589FE5203BE672000E9CD4 /* ToolsUsingModel.swift */,
+				8E298E1B202F753300687C64 /* Triangle.swift */,
+				8E298E17202F751B00687C64 /* Circle.swift */,
+				8E298E19202F752700687C64 /* Rectangle.swift */,
+				8E298E11202F6EFB00687C64 /* Pen.swift */,
+				8E298E1D202F759C00687C64 /* Line.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		8EB96A322032D1FA008CA72B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E589FE1203BE635000E9CD4 /* ViewController.swift */,
+				8E589FE3203BE660000E9CD4 /* DrawingArea.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8EB96A332032D238008CA72B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8E589FEA203BF2C3000E9CD4 /* Main.storyboard */,
+				8E298DFE202F348B00687C64 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +174,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E589FEC203BF2C3000E9CD4 /* Main.storyboard in Resources */,
 				8E298E00202F348B00687C64 /* LaunchScreen.storyboard in Resources */,
 				8E298DFD202F348B00687C64 /* Assets.xcassets in Resources */,
-				8E298DFB202F348B00687C64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +187,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E298DF8202F348B00687C64 /* ViewController.swift in Sources */,
+				8E589FE6203BE672000E9CD4 /* ToolsUsingModel.swift in Sources */,
+				8E589FE4203BE660000E9CD4 /* DrawingArea.swift in Sources */,
+				8E298E18202F751B00687C64 /* Circle.swift in Sources */,
 				8E298DF6202F348B00687C64 /* AppDelegate.swift in Sources */,
+				8E298E0E202F680B00687C64 /* Tools.swift in Sources */,
+				8E298E1A202F752700687C64 /* Rectangle.swift in Sources */,
+				8E298E12202F6EFB00687C64 /* Pen.swift in Sources */,
+				8E298E1C202F753300687C64 /* Triangle.swift in Sources */,
+				8E589FE2203BE636000E9CD4 /* ViewController.swift in Sources */,
+				8E298E14202F71A800687C64 /* Point.swift in Sources */,
+				8E298E1E202F759C00687C64 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E298DF9202F348B00687C64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E298DFA202F348B00687C64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E298DFE202F348B00687C64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8E298DFF202F348B00687C64 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E589FEA203BF2C3000E9CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E589FEB203BF2C3000E9CD4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "lec.Assigment-3-Drawing-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "lec.Assigment-3-Drawing-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
